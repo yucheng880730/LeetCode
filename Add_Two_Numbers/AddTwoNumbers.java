@@ -1,5 +1,15 @@
 package Add_Two_Numbers;
 
+/**
+ *  1. set two pointer, one for each input list. Create head of new list
+ *  2. add values that our pointers are at
+ *  3. check if theres a carry, add 1
+ *  4. check if sum > 0, if it is, add additional flag = true
+ *  5. move pointer forward
+ *  6. after loop, check if carry is true, if it is, add a additional node to result list
+ *  7. return result list
+ * */
+
 public class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
